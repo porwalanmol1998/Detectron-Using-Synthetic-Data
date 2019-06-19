@@ -40,21 +40,21 @@ _DATASETS = {
 
     'gun_real_val': {
         _IM_DIR:
-            _DATA_DIR + '/gun/testImages/real',
+            _DATA_DIR + '/gun/test/testImages/real',
         _ANN_FN:
-            _DATA_DIR + '/gun/annotations/real_val.json',
+            _DATA_DIR + '/gun/test/real_val.json',
     },
     'gun_real_train': {
         _IM_DIR:
-            _DATA_DIR + '/gun/trainImages/real',
+            _DATA_DIR + '/gun/train/trainImages/real',
         _ANN_FN:
-            _DATA_DIR + '/gun/annotations/real_train.json',
+            _DATA_DIR + '/gun/train/real_train.json',
     },
     'gun_synthetic_train': {
         _IM_DIR:
-            _DATA_DIR + '/gun/trainImages/synthetic',
+            _DATA_DIR + '/gun/train/trainImages/synthetic',
         _ANN_FN:
-            _DATA_DIR + '/gun/annotations/synthetic_train.json',
+            _DATA_DIR + '/gun/train/synthetic_train.json',
     },
     'cityscapes_fine_instanceonly_seg_val': {
         _IM_DIR:
