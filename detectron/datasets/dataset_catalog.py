@@ -37,13 +37,24 @@ _RAW_DIR = 'raw_dir'
 
 # Available datasets
 _DATASETS = {
-    'cityscapes_fine_instanceonly_seg_train': {
+
+    'gun_real_val': {
         _IM_DIR:
-            _DATA_DIR + '/cityscapes/images',
+            _DATA_DIR + '/gun/testImages/real',
         _ANN_FN:
-            _DATA_DIR + '/cityscapes/annotations/instancesonly_gtFine_train.json',
-        _RAW_DIR:
-            _DATA_DIR + '/cityscapes/raw'
+            _DATA_DIR + '/gun/annotations/real_val.json',
+    },
+    'gun_real_train': {
+        _IM_DIR:
+            _DATA_DIR + '/gun/trainImages/real',
+        _ANN_FN:
+            _DATA_DIR + '/gun/annotations/real_train.json',
+    },
+    'gun_synthetic_train': {
+        _IM_DIR:
+            _DATA_DIR + '/gun/trainImages/synthetic',
+        _ANN_FN:
+            _DATA_DIR + '/gun/annotations/synthetic_train.json',
     },
     'cityscapes_fine_instanceonly_seg_val': {
         _IM_DIR:
