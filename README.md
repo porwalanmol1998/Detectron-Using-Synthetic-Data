@@ -1,4 +1,5 @@
 
+
 # Gun-Detection-With-Detectron-Using-Synthetic-Data
 This is an example of how synthetic data can increase quality of object detection and classification.
 
@@ -11,6 +12,8 @@ This is an example of how synthetic data can increase quality of object detectio
 * [Introduction](#Introduction)
 * [Installation](#Installation)
 * [Usage](#Usage)
+* [Detectron](#Detectron)
+* [Dataset](#Dataset)
 
 ## Introduction
 
@@ -110,5 +113,8 @@ python tools/train_net.py \
 - Box AP50 on `gun_real_val` should be around 88.7%  
 
 
-### Detectron
+## Detectron
 More about using  [Detectron](https://github.com/facebookresearch/Detectron) see [`GETTING_STARTED.md`](https://github.com/facebookresearch/Detectron/blob/master/GETTING_STARTED.md)
+
+## Dataset
+**The [edgecase.ai](https://www.edgecase.ai/)  Synthetic Gun Detection [Dataset](https://docs.google.com/forms/d/e/1FAIpQLSffVbLwfuhgSvwxrU66NDTZLfz0RrqcQ-KXJxEN9HIZiqxBeg/viewform?vc=0&c=0&w=1) - the largest open source synthetic gun detection dataset in the world.**
